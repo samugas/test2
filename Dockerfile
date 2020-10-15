@@ -16,7 +16,7 @@ RUN     rm *.html && \
 #COPY  index.html /var/www/html
 
 #ADD   web.tgz    /var/www/html
-
+#Modifico alguna cosa
 EXPOSE 80
 
 CMD [ "/usr/sbin/apache2ctl", "-D", "FOREGROUND" ]
